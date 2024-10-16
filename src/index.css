@@ -1,0 +1,25 @@
+:root {
+  --dark-blue-color: #001747;
+  --white-color: #ffffff;
+  --font-arial: Arial, Helvetica, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-arial);
+}
+
+body {
+  background-color: var(--dark-blue-color);
+}
+
+.App {
+  background-color: var(--white-color);
+  width: 90%;
+  height: 80vh;
+  border-radius: 15px;
+  margin: 50px auto;
+  padding: 75px 200px 34px 200px;
+}

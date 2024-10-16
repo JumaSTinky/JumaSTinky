@@ -1,0 +1,22 @@
+.main-title {
+  font-size: 5rem;
+  color: var(--dark-blue-color);
+}
+
+.todo-form {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #afafaf;
+  border-radius: 0.5rem;
+  padding: 6px 14px;
+}
+.todo-input {
+  border: none;
+  outline: none;
+  width: 60%;
+  font-size: 2rem;
+}
+.button-block {
+  display: flex;
+  gap: 14px;
+}
